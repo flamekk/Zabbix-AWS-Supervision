@@ -1,5 +1,8 @@
 
 # 🏗️ Infrastructure Cloud de Supervision avec Zabbix sous AWS
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Zabbix](https://img.shields.io/badge/Zabbix-GPLv2-blue)](https://www.zabbix.com/licensing)
+[![Docker](https://img.shields.io/badge/Docker-Apache%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## 📋 Table des matières
 - [📌 Aperçu du projet](#-aperçu-du-projet)
