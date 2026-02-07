@@ -18,36 +18,23 @@ L'infrastructure est déployée dans un **VPC dédié (10.0.0.0/16)** au sein de
 
 ## 🚀 Fonctionnalités Clés
 
-* 
-**Conteneurisation** : Serveur Zabbix déployé via **Docker-Compose** pour une portabilité et une isolation optimales.
-
-
-* 
-**Collecte de Métriques** : Monitoring CPU, mémoire, espace disque et état des services via les agents Zabbix.
-
-
+* **Conteneurisation** : Serveur Zabbix déployé via **Docker-Compose** pour une portabilité et une isolation optimales.
+* **Collecte de Métriques** : Monitoring CPU, mémoire, espace disque et état des services via les agents Zabbix.
 * **Sécurité Réseau** : Configuration de Security Groups AWS et du pare-feu Windows (port **10050**) pour sécuriser les flux de données.
-* 
-**Alerting Proactif** : Détection automatique des pannes avec triggers configurés pour signaler l'indisponibilité des hôtes.
+* **Alerting Proactif** : Détection automatique des pannes avec triggers configurés pour signaler l'indisponibilité des hôtes.
 
 
 
 ## 📂 Contenu du Dépôt
 
-* 
-`docker-compose.yml` : Configuration complète du serveur, de la base de données MySQL et de l'interface Web.
-
-
+* `docker-compose.yml` : Configuration complète du serveur, de la base de données MySQL et de l'interface Web.
 * `zabbix_agentd.conf` : Fichiers de configuration des agents optimisés pour la communication avec le serveur.
 * `Rapport_TP.pdf` : Documentation détaillée incluant les captures d'écran des tableaux de bord et des tests de charge.
 
 ## 🛠️ Installation Rapide (Serveur)
 
 1. **Cloner le dépôt** : `git clone <url-du-repo>`
-2. 
-**Lancer l'infrastructure** : `sudo docker-compose up -d` 
-
-
+2. **Lancer l'infrastructure** : `sudo docker-compose up -d` 
 3. **Accès Web** : `http://44.203.122.143:8080` (Identifiants par défaut : Admin/zabbix).
 
 ---
