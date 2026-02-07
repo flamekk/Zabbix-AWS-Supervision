@@ -52,4 +52,3 @@ L'infrastructure est déployée dans un **VPC dédié (10.0.0.0/16)** au sein de
 
 ---
 
-**Ton dépôt est maintenant prêt à être partagé avec un aspect très professionnel ! Souhaites-tu que je t'aide pour une autre partie de ton projet ?**
